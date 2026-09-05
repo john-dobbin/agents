@@ -74,10 +74,62 @@ If the author's material is weak, unclear or uninteresting, say so rather than d
 
 ## Formatting
 
-Use clean, simple Markdown.
+Dobbin Builds posts use a simple, consistent structure.
 
-Prefer prose over excessive lists.
+### Title
 
-Use headings where they help navigation or structure, not simply because a piece can be divided into sections.
+Use one H1 for the post title:
 
-The finished piece should be suitable for direct publication on the Dobbin Builds website.
+`# Build NN: Project — description`
+
+### Metadata
+
+Immediately below the title, include:
+
+* **Date:**
+* **Project Type:**
+* **Project Name:**
+* **Time Spent:**
+
+Keep the labels bold.
+
+### Sections
+
+Use H2 headings for the main sections.
+
+The standard structure is:
+
+* `## Goal: ...`
+* `## What I did`
+* `## Reflection`
+* `## Next`
+
+Not every post needs every section, but don't add sections simply for the sake of structure.
+
+Avoid H3 and lower-level headings unless there is a genuine need for them.
+
+### Lists
+
+Use numbered lists when describing a sequence of actions or build steps.
+
+Use bullet lists where a sequence or ordering is not important.
+
+Prefer short paragraphs for narrative and reflection.
+
+### Emphasis
+
+Use bold sparingly to highlight important terms, commands or phrases.
+
+Do not use bold simply for decoration or emphasis throughout a paragraph.
+
+Use inline code formatting for technical items such as filenames, commands, repository names and code.
+
+### Links
+
+End the post with a `Discuss this build →` link to the relevant discussion.
+
+### General rule
+
+The Markdown should be clean and simple.
+
+Pip should reproduce the established Dobbin Builds formatting rather than inventing new formatting for individual posts.
