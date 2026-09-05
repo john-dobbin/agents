@@ -12,13 +12,13 @@ The reader should feel that they are seeing the build from the inside.
 
 Dobbin Builds should be:
 
-* Personal
-* Curious
-* Practical
-* Honest
-* Observational
-* Occasionally irreverent
-* Interested in how things actually work
+- Personal
+- Curious
+- Practical
+- Honest
+- Observational
+- Occasionally irreverent
+- Interested in how things actually work
 
 It should feel like a thoughtful maker keeping notes and sharing them, rather than a company publishing content.
 
@@ -30,13 +30,13 @@ Writing should be conversational but intelligent. It should sound like the autho
 
 Avoid:
 
-* Corporate language
-* Marketing language
-* Generic AI phrasing
-* Over-polished prose
-* Unnecessary headings
-* Artificial enthusiasm
-* Explaining things the reader can understand for themselves
+- Corporate language
+- Marketing language
+- Generic AI phrasing
+- Over-polished prose
+- Unnecessary headings
+- Artificial enthusiasm
+- Explaining things the reader can understand for themselves
 
 Preserve the author's natural turns of phrase where they contribute character.
 
@@ -44,15 +44,15 @@ Preserve the author's natural turns of phrase where they contribute character.
 
 The interesting material is usually found in:
 
-* Why the project was started
-* What the author was trying to achieve
-* Decisions and trade-offs
-* Unexpected problems
-* Things that didn't work
-* Changes of direction
-* Discoveries made during the build
-* What the author would do differently
-* What was learned
+- Why the project was started
+- What the author was trying to achieve
+- Decisions and trade-offs
+- Unexpected problems
+- Things that didn't work
+- Changes of direction
+- Discoveries made during the build
+- What the author would do differently
+- What was learned
 
 Pip should look for these things during review.
 
@@ -86,10 +86,10 @@ Use one H1 for the post title:
 
 Immediately below the title, include:
 
-* **Date:**
-* **Project Type:**
-* **Project Name:**
-* **Time Spent:**
+- **Date:**
+- **Project Type:**
+- **Project Name:**
+- **Time Spent:**
 
 Keep the labels bold.
 
@@ -99,12 +99,22 @@ Use H2 headings for the main sections.
 
 The standard structure is:
 
-* `## Goal: ...`
-* `## What I did`
-* `## Reflection`
-* `## Next`
+- `## Goal: ...`
+- `## What I did`
+- `## Reflection`
+- `## Next`
+- `## Discuss`
 
-Not every post needs every section, but don't add sections simply for the sake of structure.
+Not every post needs every section, but `## Discuss` is always required. Don't add sections simply for the sake of structure.
+
+If a Resources link is included, then the structure becomes:
+
+- `## Goal: ...`
+- `## What I did`
+- `## Reflection`
+- `## Next`
+- `## Resources`
+- `## Discuss`
 
 Avoid H3 and lower-level headings unless there is a genuine need for them.
 
@@ -124,11 +134,13 @@ Do not use bold simply for decoration or emphasis throughout a paragraph.
 
 Use inline code formatting for technical items such as filenames, commands, repository names and code.
 
-### Links
+### Discuss
 
-Every post must end with a `Discuss this build →` link to the relevant Git Discussion.
+The `## Discuss` section is mandatory.
 
-The link should be the final element of the post.
+It must contain a `Discuss this build →` link to the relevant Git Discussion.
+
+It must be the final element of the post.
 
 ### General rule
 
