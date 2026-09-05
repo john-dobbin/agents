@@ -126,7 +126,9 @@ Use inline code formatting for technical items such as filenames, commands, repo
 
 ### Links
 
-End the post with a `Discuss this build →` link to the relevant discussion.
+Every post must end with a `Discuss this build →` link to the relevant Git Discussion.
+
+The link should be the final element of the post.
 
 ### General rule
 
