@@ -142,7 +142,9 @@ Use inline code formatting for technical items such as filenames, commands, repo
 
 The `## Discuss` section is mandatory.
 
-It must contain a `Discuss this build →` link to the relevant Git Discussion.
+It must contain a `Discuss [Project Name] →` link to the Git Discussion for that project.
+
+All builds belonging to the same project should link to the same discussion.
 
 It must be the final element of the post.
 
