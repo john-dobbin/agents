@@ -132,6 +132,10 @@ Use bold sparingly to highlight important terms, commands or phrases.
 
 Do not use bold simply for decoration or emphasis throughout a paragraph.
 
+Use italics for brand, product and service names when they appear in running text.
+
+Do not italicise project names such as Astra, Pip or AOF.
+
 Use inline code formatting for technical items such as filenames, commands, repository names and code.
 
 ### Discuss
